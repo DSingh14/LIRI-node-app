@@ -37,7 +37,7 @@ node liri.js movie-this '<movie name here>'
 	8. Rotten Tomatoes Rating
 
 * Example for spotify
-![Terminal ScreenShot](/images/spotifythissong_nosong.jpg)
+https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_nosong.jpg
 ```
 node liri.js spotify-this-song '<song name here>'
 ```
