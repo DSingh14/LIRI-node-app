@@ -20,7 +20,7 @@ var fs = require("fs");
 
 // Functions for movie search(movie-this)
 var movieSearch = function (movieName) {
-    if (movieName === undefined) {
+    if (!movieName) {
         movieName = "Mr. Nobody";
     }
     // run axios with OMDB API for movie name and capture return
@@ -30,8 +30,8 @@ var movieSearch = function (movieName) {
         console.log("Title of the movie: " + movieData.Title);
         console.log("Movie released year: " + movieData.Year);
         console.log("IMBD rating of the movie: " + movieData.imdbRating);
-        console.log("Rotten Tomatoes rating: " + movieData.Ratings);
-        console.log("Country movie was produced: " + movieData.Produced);
+        console.log("Rotten Tomatoes rating: " + movieData.Ratings[1].Value);
+        console.log("Country movie was produced: " + movieData.Country);
         console.log("Language of the movie: " + movieData.Language);
         console.log("Plot of the movie: " + movieData.Plot);
         console.log("Actors of the movie: " + movieData.Actors);
@@ -55,7 +55,7 @@ var songSearch = function (songTitle) {
                 console.log("Error occured" + err);
                 return;
             }
-            console.log(JSON.stringify(response));
+            // console.log(JSON.stringify(response));
             var songs = response.tracks.items;
             // console.log(JSON.stringify(songs, null, 2));
             console.log(songs.length);
@@ -103,7 +103,15 @@ var doWhatItSay = function () {
         // Then split it by commas (to make it more readable)
         var dataArr = data.split(",");
         console.log(dataArr);
-        songSearch(dataArr[1]);
+        if (dataArr[0] === "movie-this") {
+            movieSearch(dataArr[1]);
+        }
+        if (dataArr[0] === "spotify-this-song") {
+            songSearch(dataArr[1]);
+        }
+        if (dataArr[0] === "concert-this") {
+            concertSearch(dataArr[1]);
+        }
 
     })
 };
