@@ -19,7 +19,16 @@
   3.	Create a .env file in the same directory as the rest of the files. In the .env file should be:
            1. '# Spotify API keys'
            2. 'SPOTIFY_ID=your-spotify-ID-here'
-           3. 'SPOTIFY_SECRET=your-spotify-secret-here'
+           3. 'SPOTIFY_SECRET=your-spotify-secret-here'  
+  4.    Technologies Used
+  	   1. JavaScript
+  	   2. Node.js
+  	   3. Spotify API
+  	   4. Bands in Town API
+  	   5. OMDB API
+# Instructions
+* Open Terminal(for mac).As per requirement pass syntax provided in below container with movie name/song/artist or concert name.And get information for each as per output listed below. For example 
+	  Given syntax for getting movie information is "node liri.js movie-this '<movie name here>'", replace <movie name here> with movie to be searched like <titanic>.
 
 
 # Example for movie
@@ -30,11 +39,11 @@ node liri.js movie-this '<movie name here>'
 	1. Title
 	2. Year
 	3. IMDB Rating
-	4. Country
-	5. Language
-	6. Plot
-	7. Actors
-	8. Rotten Tomatoes Rating
+	4. Rotten Tomatoes Rating
+	5. Country
+	6. Language
+	7. Plot
+	8. Actors
 	
 * Screenshot of output when we run "node liri.js movie-this" without any movie name.
 ![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/moviethis_undefined.jpg)
@@ -65,8 +74,8 @@ node liri.js spotify-this-song '<song name here>'
 ```
 node liri.js concert-this <artist/band name here>
 ```
-* this would output the following information to the terminal:
-	1.Name of the venue
+* this would output the following information to the terminal
+	1. Name of the venue
 	2. Venue location
 	3. Date of the Event (use moment to format this as "MM/DD/YYYY") 
 
@@ -86,23 +95,9 @@ node liri.js do-what-it-says
 ![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/whattoget.jpg)
 
 
-* These are the npm packages I used and are needed to run the app
-	1. fs package in node
-	2. [spotify](https://www.npmjs.com/package/spotify)
-	
-
-* to install these npm packages run these commands one at a time.
-```
-npm install spotify
-npm install request
-```
-* Technologies Used
-  1. JavaScript
-  2. Node.js
-  3. Spotify API
-  4. Bands in Town API
-  5. OMDB API
 
 
-# Copyright
+
+
+* Copyright
 Deepali Singh (C) 2019. All Rights Reserved.
