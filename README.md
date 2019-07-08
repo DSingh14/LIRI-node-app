@@ -37,9 +37,7 @@ node liri.js movie-this '<movie name here>'
 	8. Rotten Tomatoes Rating
 
 * Example for spotify
-* Screenshot of output when we run "node liri.js spotify-this song" without any song name.
-![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_nosong.jpg)
-![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_withsong.jpg)
+
 ```
 node liri.js spotify-this-song '<song name here>'
 ```
@@ -48,6 +46,13 @@ node liri.js spotify-this-song '<song name here>'
 	2. song name
 	3. preview link of the song from spotify
 	4. album that the song is a part of
+
+
+* Screenshot of output when we run "node liri.js spotify-this song" without any song name.
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_nosong.jpg)
+
+* Screenshot of output when we run "node liri.js spotify-this song" with song name.
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_withsong.jpg)
   
   * Example for concert
 ```
@@ -58,11 +63,20 @@ node liri.js concert-this <artist/band name here>
 	2. Venue location
 	3. Date of the Event (use moment to format this as "MM/DD/YYYY") 
 
+* Screenshot of output when we run "node liri.js concert-this " without any name.
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/concertthis_noname.jpg)
+
+* Screenshot of output when we run "node liri.js concert-this " with name.
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/concertthis_name.jpg)
+
 * Example for do what it says
 ```
 node liri.js do-what-it-says
 ```
 *A random.txt file with search for spotify-this-song "I want it that way." This will give you the spotify results of "I want it that way."
+
+* Screenshot of output when we run "node liri.js what-it-says " as per file random.txt.
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/whattoget.jpg)
 
 
 * These are the npm packages I used and are needed to run the app
