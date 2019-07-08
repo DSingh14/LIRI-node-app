@@ -37,7 +37,9 @@ node liri.js movie-this '<movie name here>'
 	8. Rotten Tomatoes Rating
 
 * Example for spotify
+* Screenshot of output when we run "node liri.js spotify-this song" without any song name.
 ![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_nosong.jpg)
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_withsong.jpg)
 ```
 node liri.js spotify-this-song '<song name here>'
 ```
