@@ -20,16 +20,12 @@
            1. '# Spotify API keys'
            2. 'SPOTIFY_ID=your-spotify-ID-here'
            3. 'SPOTIFY_SECRET=your-spotify-secret-here'  
-  4.    Technologies Used
+  4.    Technologies Used:
   	   1. JavaScript
   	   2. Node.js
   	   3. Spotify API
   	   4. Bands in Town API
   	   5. OMDB API
-# Instructions
-* Open Terminal(for mac).As per requirement pass syntax provided in below container with movie name/song/artist or concert name.And get information for each as per output listed below. For example 
-	  Given syntax for getting movie information is "node liri.js movie-this '<movie name here>'", replace <movie name here> with movie to be searched like <titanic>.
-
 
 # Example for movie
 ```
