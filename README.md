@@ -9,7 +9,7 @@
 	3. consert-this
 	4. do-what-it-says
 
-* Setup
+# Setup
   1.	Clone the repository
   2.	Run npm install, and the following packages should be installed:
            1. Node-Spotify-API
@@ -22,7 +22,7 @@
            3. 'SPOTIFY_SECRET=your-spotify-secret-here'
 
 
-* Example for movie
+# Example for movie
 ```
 node liri.js movie-this '<movie name here>'
 ```
@@ -35,8 +35,15 @@ node liri.js movie-this '<movie name here>'
 	6. Plot
 	7. Actors
 	8. Rotten Tomatoes Rating
+	
+* Screenshot of output when we run "node liri.js movie-this" without any movie name.
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/moviethis_undefined.jpg)
 
-* Example for spotify
+* Screenshot of output when we run "node liri.js movie-this" with movie name.
+![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/moviethis_moviename.jpg)
+
+
+# Example for spotify
 
 ```
 node liri.js spotify-this-song '<song name here>'
@@ -54,7 +61,7 @@ node liri.js spotify-this-song '<song name here>'
 * Screenshot of output when we run "node liri.js spotify-this song" with song name.
 ![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/spotifythissong_withsong.jpg)
   
-  * Example for concert
+ # Example for concert
 ```
 node liri.js concert-this <artist/band name here>
 ```
@@ -69,7 +76,7 @@ node liri.js concert-this <artist/band name here>
 * Screenshot of output when we run "node liri.js concert-this " with name.
 ![spotify example](https://github.com/DSingh14/LIRI-node-app/blob/master/image/concertthis_name.jpg)
 
-* Example for do what it says
+# Example for do what it says
 ```
 node liri.js do-what-it-says
 ```
