@@ -19,14 +19,14 @@
   3.	Create a .env file in the same directory as the rest of the files. In the .env file should be:
            1. '# Spotify API keys'
            2. 'SPOTIFY_ID=your-spotify-ID-here'
-           3. 'SPOTIFY_SECRET=your-spotify-secret-here'  
-  4.    Technologies Used:
-  	   1. JavaScript
-  	   2. Node.js
-  	   3. Spotify API
-  	   4. Bands in Town API
-  	   5. OMDB API
-
+           3. 'SPOTIFY_SECRET=your-spotify-secret-here' 
+  4.   Technologies Used:
+	   1. JavaScript
+	   2. Node.js
+	   3. Spotify API
+	   4. Bands in Town API
+	   5. OMDB API
+  
 # Example for movie
 ```
 node liri.js movie-this '<movie name here>'
